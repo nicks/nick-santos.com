@@ -1,2 +1,10 @@
-# nick-santos.com
-nick-santos.com website source
+nick-santos.com
+==================
+
+Source code for [nick-santos.com](https://nick-santos.com/). Mostly a sandbox for playing
+with new HTML and CSS.
+
+Made with [Glitch](https://glitch.com/)
+-------------------
+
+\ ゜o゜)ノ

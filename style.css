@@ -1,0 +1,174 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: "Noto Sans", "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 0;
+  background-color: #f7f7f7;
+}
+
+h1 {
+  color: #222;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  font-weight: normal;
+  color: #555;
+}
+
+a {
+  color: #555;
+  text-decoration: none;
+}
+a:hover, a:hover h3, a:hover h4, a:hover .else-icon {
+  color: #222;
+  fill: #222;
+  text-decoration: none;
+}
+
+.page {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+}
+
+.page:first-child:after {
+  content: "▼";
+  position: absolute;
+  width: 100%;
+  top: 100%;
+  left: 0;
+  margin-top: -2em;
+  display: block;
+  text-align: center;
+  color: #444;
+}
+
+.halfPage {
+  width: 100%;
+  height: 50vh;
+  position: relative;
+}
+
+.figHead {
+  width: 100%; 
+  height: 100%; 
+  margin: 0; 
+  position:relative;
+}
+
+.figHead-caption {
+  position: absolute; 
+  bottom: 10px; 
+  right: 10px; 
+  color: #ccc;
+  font-size: 80%;
+}
+
+.avatar {
+  margin: auto; 
+  width: 20vw; 
+  height: 20vw; 
+  margin-top: -10vw; 
+  position:relative;
+}
+
+@media (max-width: 1000px) {
+  .avatar {
+    width: 200px;
+    height: 200px; 
+    margin-top: -100px;
+  }
+}
+
+@media (min-width: 1500px) {
+  .avatar {
+    width: 300px;
+    height: 300px; 
+    margin-top: -150px;
+  }
+}
+    
+.avatar-img {
+  border-radius: 50%; 
+  width: 100%; 
+  height: 100%;
+}
+
+.work {
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: space-around; 
+  min-height: 100vh;
+}
+.work-panel {
+  flex-grow: 1;
+  min-width: 300px;
+  border-right: 3px solid green;
+  text-align: center;
+  padding: 2em 0;
+  position: relative;
+}
+.work-icon {
+  display: block;
+  margin: 1em auto;
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+}
+.u-inlineBlock {
+  display: inline-block !important;
+}
+.blog {
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: flex-start; 
+  min-height: 100vh;
+}
+.blog-panel {
+  flex-grow: 0;
+  text-align: left;
+  margin: 1em;
+  padding: 1em;
+  position: relative;
+  width: 500px;
+  border: thin solid #777;
+  border-radius: 5px;
+}
+.blog-panel h3 {
+  text-align: left;
+}
+.else {
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center; 
+  min-height: 100vh;
+}
+.else-icon {
+  display: inline-block;
+  width: 4em;
+  height: 4em;
+  margin: 1em;
+  fill: #555;
+}
+
+.upperRight {
+  position: absolute;
+  top: -0.6em;
+  left: 100%;
+  color: green;
+}
+.lowerLeft {
+  position: absolute;
+  bottom: -0.6em;
+  left: 100%;
+  color: green;
+}
+
+.glitchOpenWindowElement {
+  margin-top: -400%;
+}
