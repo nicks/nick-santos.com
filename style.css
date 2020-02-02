@@ -155,6 +155,9 @@ a:hover, a:hover h3, a:hover h4, a:hover .else-icon {
   height: 4em;
   margin: 1em;
   fill: #555;
+  
+  max-width: 10vw;
+  max-height: 10vw;
 }
 
 .upperRight {
