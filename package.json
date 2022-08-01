@@ -1,0 +1,28 @@
+{
+  "name": "nick-santos.com",
+  "version": "1.0.0",
+  "private": true,
+  "description": "nick-santos.com",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx @11ty/eleventy",
+    "start": "npx @11ty/eleventy --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicks/nick-santos.com.git"
+  },
+  "keywords": [],
+  "author": "nicholas.j.santos@gmail.com",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/nicks/nick-santos.com/issues"
+  },
+  "homepage": "https://nick-santos.com/",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.1"
+  },
+  "dependencies": {
+    "eleventy-plugin-svg-contents": "^0.7.0"
+  }
+}
